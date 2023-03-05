@@ -1,0 +1,9 @@
+**/images
+
+.DS_Store
+*.egg-info
+__pycache__
+/**/build
+/.vscode
+/**/*.o
+/**/*.so
