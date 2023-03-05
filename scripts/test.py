@@ -45,7 +45,7 @@ if __name__ == "__main__":
             filepath_outputs_[i].append(filepath_outputs[i*sub_batch+j])
 
     t0 = time()
-    jxlbinding.encode_images(images_, filepath_outputs_)
+    jxlbinding.encode_images_super(images_, filepath_outputs_)
     t1 = time()
 
     total_pixels = 0
